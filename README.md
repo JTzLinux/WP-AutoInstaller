@@ -52,5 +52,7 @@ Maybe I will do it but due to the fact nobody uses MacOS to host a server (atlea
 Thank you for everyone using my Script makes me happy to see people have use for this kind of stuff!
 
 If you want, you can donate to me via
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.me/atara187)
+
 It is no requirement but anywy have a great day!

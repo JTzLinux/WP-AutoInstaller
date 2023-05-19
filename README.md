@@ -23,6 +23,7 @@ after you connected to your website choose your language and then enter the Info
 
 Use the Following:
 ```diff
+-!!!DO NOT DELETE THE LOGIN.TXT AND KEEP IT IN A SAFE PLACE!!!
 -!!!NEVER ENTER ROOT AND ROOTPASSWORD IN THERE!!!
 ```
 ```
@@ -34,3 +35,21 @@ You can leave the rest
 ```diff
 -!!!NEVER ENTER ROOT AND ROOTPASSWORD IN THERE!!!
 ```
+
+If you want to make changes you can use your SQL Software (I use HeidiSQL) and login use the IP of the Server (or localhost if you run your SQL Software on the same Device) and use the rootpassword what was delivered with it (Login.txt) and then you can access it! but it is not necasary due to the Fact Wordpress does it for you ;)
+>If the Script is Outdated contact me ^-^ at: [a.tara@modernrp.de](mailto:a.tara@modernrp.de) or: [a.tara95@yahoo.com](mailto:a.tara95@yahoo.com)
+
+## Linux?
+
+Yes there will be a Linux version I am currently working on it
+
+## MacOS?
+
+Maybe I will do it but due to the fact nobody uses MacOS to host a server (atleast never heared of it) I will less prioritize it Sorry!
+
+# Last words
+
+Thank you for everyone using my Script makes me happy to see people have use for this kind of stuff!
+
+If you want, you can donate to me via [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](paypal.me/atara187)
+It is no requirement but anywy have a great day!

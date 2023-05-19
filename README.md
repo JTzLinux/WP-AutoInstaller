@@ -22,11 +22,15 @@ anyway after we ran it and finished it go to localhost (if you installed it loca
 after you connected to your website choose your language and then enter the Information of the SQL Server (login.txt)
 
 Use the Following:
-
+```diff
+-!!!NEVER ENTER ROOT AND ROOTPASSWORD IN THERE!!!
+```
 ```
 Database Name = Database
 Username = username
 Password = userpassword
 You can leave the rest
 ```
->rgb(255, 0, 0)!!!NEVER ENTER ROOT AND ROOTPASSWORD IN THERE!!!
+```diff
+-!!!NEVER ENTER ROOT AND ROOTPASSWORD IN THERE!!!
+```

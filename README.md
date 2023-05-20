@@ -55,4 +55,4 @@ If you want, you can donate to me via
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=BU4LRWHL9RN5E)
 
-It is no requirement but anywy have a great day!
+It is no requirement but anyway have a great day!

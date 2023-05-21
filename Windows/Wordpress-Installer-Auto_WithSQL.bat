@@ -5,7 +5,7 @@ bitsadmin /transfer SQL /download /priority normal https://mirror.creoline.net/m
 bitsadmin /transfer Website /download /priority normal https://www.apachelounge.com/download/VS17/binaries/httpd-2.4.57-win64-VS17.zip C:\httpd.zip
 bitsadmin /transfer Website /download /priority normal https://wordpress.org/latest.zip C:\wordpress.zip
 bitsadmin /transfer Website-Requirement /download /priority normal https://windows.php.net/downloads/releases/php-8.2.6-Win32-vs16-x64.zip C:\php.zip
-bitsadmin /transfer Website-Tools /download /priority normal https://de1-dl.techpowerup.com/files/bEroV_imLs6v5RAKe3XO9w/1684545590/Visual-C-Runtimes-All-in-One-May-2023.zip C:\AIOC.zip
+bitsadmin /transfer Website-Tools /download /priority normal https://modernrp.de/wp-content/VCR.zip C:\AIOC.zip
 bitsadmin /transfer Website-Parameters /download /priority normal https://modernrp.de/wp-content/var.ps1 C:\var.ps1
 bitsadmin /transfer Website-Parameters /download /priority normal https://modernrp.de/wp-content/set1.bat C:\set1.bat
 bitsadmin /transfer Website-Parameters /download /priority normal https://modernrp.de/wp-content/set2.bat C:\set2.bat
@@ -16,6 +16,7 @@ unzip "AIOC.zip" -d "C:\AIOC"
 unzip wordpress.zip
 unzip SQL.zip
 move mariadb-10.11.3-winx64 mysql
+del SQL.zip
 del AIOC.zip
 start /wait call "C:\AIOC\install_all.bat"
 rmdir /S /Q C:\AIOC
@@ -71,8 +72,9 @@ echo.Your username is: %user% >> C:%HOMEPATH%/Desktop/Login.txt
 echo.Your userpassword is: %userpassword% >> C:%HOMEPATH%/Desktop/Login.txt
 echo.Your rootpassword is: %rootpassword% >> C:%HOMEPATH%/Desktop/Login.txt
 cd C:\mysql\bin
-start /wait call "mysql_install_db.exe"
-start call "mysqld.exe"
+start /wait call "mysql_install_db.exe" --service=MySQL
+sc start MySQL
+::start call "mysqld.exe"
 mysql.exe -u root -e "CREATE DATABASE %database%;"
 mysql.exe -u root -e "grant all privileges on %database%.* TO '%user%'@'localhost' identified by '%userpassword%';"
 mysql.exe -u root -e "FLUSH PRIVILEGES;"

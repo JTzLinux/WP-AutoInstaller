@@ -5,7 +5,7 @@ bitsadmin /transfer Website /download /priority normal https://www.apachelounge.
 bitsadmin /transfer Website /download /priority normal https://wordpress.org/latest.zip C:\wordpress.zip
 bitsadmin /transfer Website-Requirement /download /priority normal https://windows.php.net/downloads/releases/php-8.2.6-Win32-vs16-x64.zip C:\php.zip
 bitsadmin /transfer Website-Tools /download /priority normal https://de1-dl.techpowerup.com/files/bEroV_imLs6v5RAKe3XO9w/1684545590/Visual-C-Runtimes-All-in-One-May-2023.zip C:\AIOC.zip
-bitsadmin /transfer Website-Parameters /download /priority normal https://modernrp.de/wp-content/var.ps1 C:\var.ps1
+bitsadmin /transfer Website-Tools /download /priority normal https://modernrp.de/wp-content/VCR.zip C:\AIOC.zip
 bitsadmin /transfer Website-Parameters /download /priority normal https://modernrp.de/wp-content/set1.bat C:\set1.bat
 bitsadmin /transfer Website-Parameters /download /priority normal https://modernrp.de/wp-content/set2.bat C:\set2.bat
 bitsadmin /transfer Website-Parameters /download /priority normal https://modernrp.de/wp-content/set3.bat C:\set3.bat

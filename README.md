@@ -10,6 +10,8 @@ Wordpress requires SQL! if you don't have SQL use the SQL Version of the scripts
 
 If you just want to install Wordpress because you already got SQL? Then just use: "Wordpress-Installer-Auto_NoSQL.bat" I always try to keep this script up to date
 
+It is recomended to restart the PC the service might not start or you can start it yourself at: "services.msc" (rebooting is still the easier option)
+
 >If the Script is Outdated contact me ^-^ at: [a.tara@modernrp.de](mailto:a.tara@modernrp.de) or: [a.tara95@yahoo.com](mailto:a.tara95@yahoo.com)
 
 ## Windows - With SQL
@@ -37,6 +39,9 @@ You can leave the rest
 ```
 
 If you want to make changes you can use your SQL Software (I use HeidiSQL) and login use the IP of the Server (or localhost if you run your SQL Software on the same Device) and use the rootpassword what was delivered with it (Login.txt) and then you can access it! but it is not necasary due to the Fact Wordpress does it for you ;)
+
+It is recomended to restart the PC the service might not start or you can start it yourself at: "services.msc" (rebooting is still the easier option)
+
 >If the Script is Outdated contact me ^-^ at: [a.tara@modernrp.de](mailto:a.tara@modernrp.de) or: [a.tara95@yahoo.com](mailto:a.tara95@yahoo.com)
 
 ## Linux?

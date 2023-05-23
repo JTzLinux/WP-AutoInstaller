@@ -15,7 +15,7 @@ It is recomended to restart the PC the service might not start or you can start 
 >If the Script is Outdated contact me ^-^ at: [a.tara@modernrp.de](mailto:a.tara@modernrp.de) or: [a.tara95@yahoo.com](mailto:a.tara95@yahoo.com)
 
 ## Windows - With SQL
-
+Preview: https://youtu.be/xGu1ZyKtlS0
 Currently there are not set password aka you can't set it yourself with this script but you can I will explain it to you how later
 
 but anyway if you got no SQL use "Wordpress-Installer-Auto_WithSQL.bat" after you run it, it will do everything by itself *(mostly)* after the script is finished there should be a File on your Desktop called: Login.txt you require these for Login and for the Wordpress page

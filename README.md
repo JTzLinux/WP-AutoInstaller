@@ -1,31 +1,29 @@
 # WP-AutoInstaller
 
-This script is just to make yourself the instalation way more easy because let's face it we are lazy ;)
+This script is designed to make the installation process much easier for yourself because, let's face it, we can be lazy sometimes ;)
 
 ## IMPORTANT!
 
-Wordpress requires SQL! if you don't have SQL use the SQL Version of the scripts
+WordPress requires SQL! If you don't have SQL, please use the SQL version of the scripts.
 
 ## Windows - Without SQL
 
-If you just want to install Wordpress because you already got SQL? Then just use: "Wordpress-Installer-Auto_NoSQL.bat" I always try to keep this script up to date
+If you already have SQL and just want to install WordPress, simply use "Wordpress-Installer-Auto_NoSQL.bat". I always strive to keep this script up to date.
 
-It is recomended to restart the PC the service might not start or you can start it yourself at: "services.msc" (rebooting is still the easier option)
+It is recommended to restart your PC, as the service might not start automatically. Alternatively, you can start it manually at "services.msc" (rebooting is still the easier option).
 
->If the Script is Outdated contact me ^-^ at: [a.tara@modernrp.de](mailto:a.tara@modernrp.de) or: [a.tara95@yahoo.com](mailto:a.tara95@yahoo.com)
+>If the script is outdated, feel free to contact me ^-^ at: [a.tara@modernrp.de](mailto:a.tara@modernrp.de) or [a.tara95@yahoo.com](mailto:a.tara95@yahoo.com)
 
 ## Windows - With SQL
-Preview: [![Preview of SQL W](https://img.youtube.com/vi/xGu1ZyKtlS0/0.jpg)](https://www.youtube.com/watch?v=xGu1ZyKtlS0)
+Preview: [![Preview of SQL](https://img.youtube.com/vi/xGu1ZyKtlS0/0.jpg)](https://www.youtube.com/watch?v=xGu1ZyKtlS0)
 
+Currently, passwords cannot be set using this script. However, I will explain how you can set them later.
 
-Currently there are not set password aka you can't set it yourself with this script but you can I will explain it to you how later
+If you don't have SQL, use "Wordpress-Installer-Auto_WithSQL.bat". After running it, the script will handle everything *(mostly)* on its own. Once the script is finished, you should find a file called "Login.txt" on your desktop. You will need this file for logging in and accessing the WordPress page.
 
-but anyway if you got no SQL use "Wordpress-Installer-Auto_WithSQL.bat" after you run it, it will do everything by itself *(mostly)* after the script is finished there should be a File on your Desktop called: Login.txt you require these for Login and for the Wordpress page
+After running and completing the script, go to "localhost" (if you installed it locally on your computer) or enter the server URL in your browser. Once connected to your website, choose your language and enter the information of the SQL server (from Login.txt).
 
-anyway after we ran it and finished it go to localhost (if you installed it locally on your computer) or else type in the Server URL in your browser
-after you connected to your website choose your language and then enter the Information of the SQL Server (login.txt)
-
-Use the Following:
+Use the following information:
 ```diff
 -!!!DO NOT DELETE THE LOGIN.TXT AND KEEP IT IN A SAFE PLACE!!!
 -!!!NEVER ENTER ROOT AND ROOTPASSWORD IN THERE!!!
@@ -34,32 +32,30 @@ Use the Following:
 Database Name = Database
 Username = username
 Password = userpassword
-You can leave the rest
+You can leave the rest as is.
 ```
 ```diff
 -!!!NEVER ENTER ROOT AND ROOTPASSWORD IN THERE!!!
 ```
 
-If you want to make changes you can use your SQL Software (I use HeidiSQL) and login use the IP of the Server (or localhost if you run your SQL Software on the same Device) and use the rootpassword what was delivered with it (Login.txt) and then you can access it! but it is not necasary due to the Fact Wordpress does it for you ;)
+If you want to make changes, you can use your SQL software (such as HeidiSQL). Login using the IP of the server (or "localhost" if you run your SQL software on the same device) and use the root password provided in the Login.txt file. This will grant you access to the database. However, it is not necessary, as WordPress handles it for you ;)
 
-It is recomended to restart the PC the service might not start or you can start it yourself at: "services.msc" (rebooting is still the easier option)
+It is recommended to restart your PC, as the service might not start automatically. Alternatively, you can start it manually at "services.msc" (rebooting is still the easier option).
 
->If the Script is Outdated contact me ^-^ at: [a.tara@modernrp.de](mailto:a.tara@modernrp.de) or: [a.tara95@yahoo.com](mailto:a.tara95@yahoo.com)
+>If the script is outdated, feel free to contact me ^-^ at: [a.tara@modernrp.de](mailto:a.tara@modernrp.de) or [a.tara95@yahoo.com](mailto:a.tara95@yahoo.com)
 
 ## Linux?
 
-Yes there will be a Linux version I am currently working on it
+Yes, there will be a Linux version. I am currently working on it.
 
 ## MacOS?
 
-Maybe I will do it but due to the fact nobody uses MacOS to host a server (atleast never heared of it) I will less prioritize it Sorry!
+Maybe I will consider it, but since hosting a server on MacOS is not very common (or at least I haven't heard much about it), it will have a lower priority. Sorry!
 
-# Last words
+# Final Words
 
-Thank you for everyone using my Script makes me happy to see people have use for this kind of stuff!
+Thank you to everyone using my script! It makes me happy to see people finding value in this kind of tool!
 
-If you want, you can donate to me via
+If you'd like, you can show your support by donating to me via PayPal:
 
-[![paypal](https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)](https://www.paypal.com/donate/?hosted_button_id=BU4LRWHL9RN5E)
-
-It is no requirement but anyway have a great day!
+![paypal](https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)

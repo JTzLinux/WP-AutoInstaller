@@ -12,6 +12,15 @@ WordPress requires SQL installed! If you don't have a SQL installation, please u
 
 ## Windows -  Without a SQL installation
 
+## Important Notes
+
+- This script is designed for use on Windows systems.
+- Running the script as an administrator is required.
+- The script only supports 64-bit Windows.
+- It will not generate a password and username due to the fact you already have a SQL Database
+
+## Installation
+
 If you already have SQL instaled and just want to install WordPress, simply use "Wordpress-Installer-Auto_NoSQL.bat". I always strive to keep this script up to date.
 
 It is recommended to restart your PC, as the service might not start automatically. Alternatively, you can start it manually at "services.msc" (rebooting is still the easier option).

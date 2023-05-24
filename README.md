@@ -8,7 +8,7 @@ This script is provided "as-is" without warranty of any kind, express or implied
 
 ## IMPORTANT!
 
-WordPress requires SQL installed! If you don't have a SQL installation, please use the SQL version of the scripts.
+WordPress requires SQL installed! If you don't have a SQL installation, please use the SQL version of the script.
 
 ## Windows -  Without a SQL installation
 

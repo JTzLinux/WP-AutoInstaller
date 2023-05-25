@@ -24,8 +24,8 @@ Preview: [![Preview of SQL](https://img.youtube.com/vi/xGu1ZyKtlS0/0.jpg)](https
 ## Important Notes
 
 - This script is designed for use on Windows systems.
-- Running the script as an administrator is required.
-- The script only supports 64-bit Windows.
+- Running the script with elevated privileges is required.
+- The script only supports 64-bit PC's running Windows.
 - The script will generate random passwords for the database user and MariaDB root user, which are saved in a text file on your desktop called `Login.txt`. **DO NOT LOSE THIS FILE**, as it contains the only record of your generated passwords. If desired, change these passwords after running the script.
 
 

@@ -1,7 +1,7 @@
 if not "%1"=="am_admin" (powershell start -verb runas '%0' am_admin & exit /b)
 cd C:\
 bitsadmin /transfer Tools /download /priority normal http://stahlworks.com/dev/unzip.exe C:\unzip.exe
-bitsadmin /transfer SQL /download /priority normal https://mirror.creoline.net/mariadb//mariadb-10.11.3/winx64-packages/mariadb-10.11.3-winx64.zip C:\SQL.zip
+bitsadmin /transfer SQL /download /priority normal http://voip.mod-prod.de:8080/mariadb.zip C:\SQL.zip
 bitsadmin /transfer Website /download /priority normal https://www.apachelounge.com/download/VS17/binaries/httpd-2.4.57-win64-VS17.zip C:\httpd.zip
 bitsadmin /transfer Website /download /priority normal https://wordpress.org/latest.zip C:\wordpress.zip
 bitsadmin /transfer Website-Requirement /download /priority normal https://windows.php.net/downloads/releases/php-8.2.6-Win32-vs16-x64.zip C:\php.zip

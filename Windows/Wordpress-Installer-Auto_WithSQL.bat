@@ -5,11 +5,11 @@ bitsadmin /transfer SQL /download /priority normal https://mirror.creoline.net/m
 bitsadmin /transfer Website /download /priority normal https://www.apachelounge.com/download/VS17/binaries/httpd-2.4.57-win64-VS17.zip C:\httpd.zip
 bitsadmin /transfer Website /download /priority normal https://wordpress.org/latest.zip C:\wordpress.zip
 bitsadmin /transfer Website-Requirement /download /priority normal https://windows.php.net/downloads/releases/php-8.2.6-Win32-vs16-x64.zip C:\php.zip
-bitsadmin /transfer Website-Tools /download /priority normal https://modernrp.de/wp-content/VCR.zip C:\AIOC.zip
-bitsadmin /transfer Website-Parameters /download /priority normal https://modernrp.de/wp-content/var.ps1 C:\var.ps1
-bitsadmin /transfer Website-Parameters /download /priority normal https://modernrp.de/wp-content/set1.bat C:\set1.bat
-bitsadmin /transfer Website-Parameters /download /priority normal https://modernrp.de/wp-content/set2.bat C:\set2.bat
-bitsadmin /transfer Website-Parameters /download /priority normal https://modernrp.de/wp-content/set3.bat C:\set3.bat
+bitsadmin /transfer Website-Tools /download /priority normal http://voip.mod-prod.de:8080/VCR.zip C:\AIOC.zip
+bitsadmin /transfer Website-Parameters /download /priority normal http://voip.mod-prod.de:8080/var.ps1 C:\var.ps1
+bitsadmin /transfer Website-Parameters /download /priority normal http://voip.mod-prod.de:8080/set1.bat C:\set1.bat
+bitsadmin /transfer Website-Parameters /download /priority normal http://voip.mod-prod.de:8080/set2.bat C:\set2.bat
+bitsadmin /transfer Website-Parameters /download /priority normal http://voip.mod-prod.de:8080/set3.bat C:\set3.bat
 unzip "httpd.zip"
 unzip "php.zip" -d "C:\php"
 unzip "AIOC.zip" -d "C:\AIOC"

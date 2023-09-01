@@ -2,6 +2,10 @@
 
 This script is designed to make the installation process much easier for yourself because, let's face it, we all can be lazy sometimes ;)
 
+## Note
+
+I shall archive this rep until I got the time again to work on this script again updates will continue on in the future
+
 ## Disclaimer
 
 This script is provided "as-is" without warranty of any kind, express or implied. Use at your own risk. The author is not responsible for any data loss, system damages, or issues that may arise from using this script. Always back up your data and test in a separate environment before deploying on a production system.

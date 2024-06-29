@@ -4,6 +4,8 @@ This script is designed to make the installation process much easier for yoursel
 
 ## Note
 
+I'm currently make an major change to make it more reliable that takes more time
+
 I shall archive this rep until I got the time again to work on this script again updates will continue on in the future
 
 ## Disclaimer
